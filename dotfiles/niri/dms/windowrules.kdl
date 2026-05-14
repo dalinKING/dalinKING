@@ -1,0 +1,28 @@
+// DMS Window Rules - Managed by DankMaterialShell
+// Do not edit manually - changes may be overwritten
+
+// @id=wr_1778597271106044295 @name=mpv
+window-rule {
+    match app-id="^mpv$"
+    open-floating true
+    default-column-width { fixed 2160; }
+    default-window-height { fixed 1200; }
+}
+
+// @id=wr_1778597525524585511 @name=^imv$
+window-rule {
+    match app-id="^imv$"
+    open-floating true
+    default-column-width { fixed 2160; }
+    default-window-height { fixed 1440; }
+    clip-to-geometry true
+}
+
+// @id=wr_1778675538090467627 @name=com.mitchellh.ghostty
+window-rule {
+    match app-id="^com.mitchellh.ghostty$" title="^Yazi: Downloads$"
+    opacity 0.90
+    open-floating true
+    default-column-width { fixed 1500; }
+    default-window-height { fixed 800; }
+}
