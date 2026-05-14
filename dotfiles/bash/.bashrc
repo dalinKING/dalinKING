@@ -2,8 +2,6 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 export EDITOR=hx
 export PATH="$HOME/.cargo/bin:$HOME/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-export GOOGLE_CLOUD_PROJECT="639291041050"
-export GEMINI_API_KEY="AIzaSyDH5xF6jQA-QVoAxbfHHc8aLacLCdcQP7w"
 # for examples
 
 # If not running interactively, don't do anything
